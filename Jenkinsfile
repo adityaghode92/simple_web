@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/my-website.git'
+                git 'https://github.com/adityaghode92/my-website.git'
             }
         }
         stage('Clean Old Site') {
